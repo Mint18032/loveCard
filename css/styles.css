@@ -50,7 +50,7 @@ body {
   position: absolute;
   margin: 80px 0px 10px 10px;
   font-family: Fredericka the Great;
-  bottom: 0;
+  top: 100%;
 }
 
 .heart {
@@ -131,7 +131,7 @@ body {
   .content-2 {
     position: relative;
     width: 100%;
-    margin: 30px 0px 30px 0px;
+    margin: 30px 0px 20px 0px;
     right: 0;
     font-size: 40px;
   } 
