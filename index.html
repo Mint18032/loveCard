@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  <title>Certificate</title>  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/heart.png">
+  <link href="./css/general.css" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
+</head>
+
+<body>  
+  <div class="back text-center">
+    <h1 class="topic">CHỨNG NHẬN ĐÃ CÓ NGƯỜI YÊU</h1>
+    <p class="content-1">Nguyễn Minh Tuấn<br><sup>07/03/2003</sup></p> 
+    <div class="heart"></div><br>
+    <p class="content-2">Quách Ngọc Minh<br><sup>18/03/2002</sup></p> 
+    <p class="days"><span id="days"></span> days from 11/11/2021</p>
+
+    <table class="footer">
+      <tr>
+          <td>&#9993</td>
+          <td>mint18032@gmail.com</td>
+      </tr>
+      <tr>
+          <td>&#120151&#120147</td>
+          <td><a href="https://www.facebook.com/bos.be.332/">facebook.com/bos.be.332</a>
+          </td>
+      </tr>
+      <tr>
+          <td>&#9743</td>
+          <td>0855180302</td>
+      </tr>
+      <tr>
+          <td>&#127960</td>
+          <td>An Duong, Yen Phu, Tay Ho, Hanoi.</td>
+      </tr>
+  </table>
+  </div>
+  <script>
+    let anni = new Date('11/11/2021');
+    let today = new Date();
+    let difference = today.getTime() - anni.getTime();
+    let TotalDays = Math.ceil(difference / (1000 * 3600 * 24));
+    document.getElementById('days').innerHTML = TotalDays.toString();
+  </script>
+
+</body>
